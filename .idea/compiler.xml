@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="Problems-Application_as_a_class_main" target="11" />
+      <module name="Problems-Application_as_a_class_test" target="11" />
+      <module name="Problems-Comparing_strings_ignoring_whitespaces_main" target="11" />
+      <module name="Problems-Comparing_strings_ignoring_whitespaces_test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
