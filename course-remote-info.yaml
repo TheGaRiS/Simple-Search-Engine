@@ -2,6 +2,7 @@ hyperskill_project:
   id: 66
   ide_files: https://stepik.org/media/attachments/lesson/210158/additional_files.json
   is_template_based: false
+  use_ide: true
 stages:
 - id: 354
   step: 5496
@@ -54,12 +55,12 @@ topics:
     theory_id: 6865
   - title: Computer algorithms
     theory_id: 4953
+  - title: Introducing the first algorithm
+    theory_id: 10336
   - title: The big O notation
     theory_id: 4991
   - title: Linear search
     theory_id: 4970
-  - title: Binary numbers
-    theory_id: 5544
   - title: Algorithms in Java
     theory_id: 3540
   - title: Linear search in Java
@@ -74,6 +75,8 @@ topics:
     theory_id: 5035
   - title: Array
     theory_id: 3511
+  - title: Ternary operator
+    theory_id: 3506
   - title: The for-loop
     theory_id: 3505
   - title: The while and do-while loops
@@ -96,34 +99,30 @@ topics:
   3:
   - title: Introduction to OOP
     theory_id: 3614
-  - title: Command line overview
-    theory_id: 8977
   - title: What is an exception
     theory_id: 3497
-  - title: Files
-    theory_id: 3635
-  - title: What are streams
-    theory_id: 5533
-  - title: Input streams
-    theory_id: 9092
   - title: Hierarchy of exceptions
     theory_id: 3570
   - title: Exception handling
     theory_id: 3552
+  - title: Introduction to operating systems
+    theory_id: 9704
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
+  - title: Files
+    theory_id: 3635
   - title: Reading files
     theory_id: 3636
   - title: The main method
     theory_id: 3489
   - title: Arrays as parameters
     theory_id: 3594
-  - title: Write, compile and run
+  - title: Write, compile, and run
     theory_id: 3739
-  - title: JVM, JRE and JDK
+  - title: JVM, JRE, and JDK
     theory_id: 3499
-  - title: Running programs on your computer
-    theory_id: 3746
-  - title: Command-line arguments
-    theory_id: 3566
   - title: Errors in programs
     theory_id: 3536
   - title: Defining classes
@@ -142,15 +141,15 @@ topics:
     theory_id: 3599
   - title: Inheritance
     theory_id: 3583
+  - title: Running programs on your computer
+    theory_id: 3746
+  - title: Command-line arguments
+    theory_id: 3566
   4:
   - title: Immutability
     theory_id: 7929
   - title: Data structures
     theory_id: 5161
-  - title: Pseudocode basics
-    theory_id: 8228
-  - title: Complex constructions in pseudocode
-    theory_id: 8233
   - title: Fixed-size array
     theory_id: 7255
   - title: Dynamic array
@@ -175,8 +174,6 @@ topics:
     theory_id: 3558
   - title: Final variables
     theory_id: 7427
-  - title: Ternary operator
-    theory_id: 3506
   - title: Overloading
     theory_id: 3525
   - title: Static members
