@@ -28,7 +28,7 @@ public class Main {
                 arr.add(scanner.nextLine());
             }
         } catch (FileNotFoundException e) {
-            System.out.println("No file found: " + pathToFile);
+            System.out.println("\nNo file found: " + pathToFile);
         } finally {
             file.delete();
         }
@@ -38,23 +38,23 @@ public class Main {
         ArrayList <String> found = new ArrayList<>();
         String sData;
         int foundNum = 0;
-            System.out.println("Enter data to search:");
+            System.out.println("\nEnter data to search:");
             sData = (br.readLine()).toLowerCase();
             for (int j = 0; j < arr.size(); j++) {
-                if (arr.get(j).contains(sData)){
+                if (arr.get(j).toLowerCase().contains(sData))
                     found.add(arr.get(j));
                     foundNum++;
                 }
-            }
+            
             if (foundNum > 0){
-                System.out.println("Found:");
+//                System.out.println("Found:");
                 for (int j = 0; j < found.size(); j++){
                     System.out.println(found.get(j));
                 }
                 found.clear();
             }
             else {
-                System.out.println("Nothing is found");
+                System.out.println("\nNothing is found");
             }
         menu();
     }
@@ -66,16 +66,16 @@ public class Main {
     }
 
     public void exit() {
-        System.out.println("Bye!");
+        System.out.println("\nBye!");
     }
 
     public void wrongEntry() throws IOException {
-        System.out.println("Wrong entry!");
+        System.out.println("\nWrong entry!");
         menu();
     }
 
     public void menu() throws IOException {
-        System.out.println("=== Menu ===");
+        System.out.println("\n=== Menu ===");
         System.out.println("1. Find a person");
         System.out.println("2. Print all people");
         System.out.println("0. Exit");

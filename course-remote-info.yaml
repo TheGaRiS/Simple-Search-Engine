@@ -6,16 +6,22 @@ hyperskill_project:
 stages:
 - id: 354
   step: 5496
+  is_completed: true
 - id: 355
   step: 5497
+  is_completed: true
 - id: 356
   step: 5498
+  is_completed: true
 - id: 357
   step: 5499
+  is_completed: true
 - id: 358
   step: 5500
+  is_completed: false
 - id: 359
   step: 5501
+  is_completed: false
 topics:
   0:
   - title: Introduction to Java

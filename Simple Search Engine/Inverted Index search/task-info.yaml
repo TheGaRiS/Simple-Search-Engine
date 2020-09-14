@@ -296,6 +296,9 @@ files:
         }
     }
   learner_created: false
+- name: src/search/data.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/66/stages/358/implement
 status: Unchecked
 record: -1
